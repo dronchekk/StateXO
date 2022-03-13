@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69895B0127DBB6BD00925309 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69895B0027DBB6BD00925309 /* StartViewController.swift */; };
 		DD6C59CA27BEB95D008D5A40 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C59C927BEB95D008D5A40 /* GameState.swift */; };
 		DD6C59CC27BEB9D4008D5A40 /* PlayerInputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C59CB27BEB9D4008D5A40 /* PlayerInputState.swift */; };
 		DD6C59CE27BEBF3E008D5A40 /* GameEndedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C59CD27BEBF3E008D5A40 /* GameEndedState.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69895B0027DBB6BD00925309 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		DD6C59C927BEB95D008D5A40 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		DD6C59CB27BEB9D4008D5A40 /* PlayerInputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInputState.swift; sourceTree = "<group>"; };
 		DD6C59CD27BEBF3E008D5A40 /* GameEndedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEndedState.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				F874E4E02225CAAF00364CAE /* MarkViews */,
 				F874E4DA2225C1AC00364CAE /* GameboardView.swift */,
+				69895B0027DBB6BD00925309 /* StartViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				F874E4732224621100364CAE /* GameViewController.swift in Sources */,
 				F874E4DD2225C25D00364CAE /* GameboardPosition.swift in Sources */,
 				F874E4DF2225C76000364CAE /* MarkView.swift in Sources */,
+				69895B0127DBB6BD00925309 /* StartViewController.swift in Sources */,
 				F874E4F12225DFF700364CAE /* Referee.swift in Sources */,
 				F874E4F52225E2CD00364CAE /* Gameboard.swift in Sources */,
 				DD6C59E327BEC721008D5A40 /* Copying.swift in Sources */,

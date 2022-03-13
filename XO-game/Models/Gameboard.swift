@@ -23,6 +23,10 @@ public final class Gameboard {
     public func clear() {
         self.positions = initialPositions()
     }
+
+//    public func clearFor(position: GameboardPosition) {
+//        positions[position.column][position.row] = nil
+//    }
     
     public func contains(player: Player, at positions: [GameboardPosition]) -> Bool {
         for position in positions {
